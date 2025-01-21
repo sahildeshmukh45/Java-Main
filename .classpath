@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Hello/leetcode/src"/>
+	<classpathentry kind="src" path="Hello/src"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/build/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/demo/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/generated/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/legacy/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/main/core-api/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/main/core-impl/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/main/protocol-impl/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/main/user-api/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/main/user-impl/java"/>
+	<classpathentry kind="src" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/src/test/java"/>
+	<classpathentry kind="src" path="Hello/telusko/src"/>
+	<classpathentry kind="src" path="JDBC/FirstJdbcApp/src"/>
+	<classpathentry kind="src" path="JDBC/FirstJdbcApp1/src"/>
+	<classpathentry kind="src" path="JDBC/MyJdbcProject/src"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_01/src/main/java"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_01/src/test/java"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_02/src"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_02/test"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_03/src"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_03/Test"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_04/src"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_04/Test"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_05/src"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT_05/Test"/>
+	<classpathentry kind="src" path="JUNIT/JUNIT5_06/src/test/java"/>
+	<classpathentry kind="src" path="kunal_kush/Arrays/src"/>
+	<classpathentry kind="src" path="kunal_kush/binaryleetcode/src"/>
+	<classpathentry kind="src" path="kunal_kush/binarysearch/src"/>
+	<classpathentry kind="src" path="kunal_kush/OOP in java/src"/>
+	<classpathentry kind="src" path="kunal_kush/OOP kunal kushwaha/OOP-1/src"/>
+	<classpathentry kind="src" path="kunal_kush/out/production/kunal_kush"/>
+	<classpathentry kind="src" path="kunal_kush/pattern/src"/>
+	<classpathentry kind="src" path="kunal_kush/practice_oops/src"/>
+	<classpathentry kind="src" path="kunal_kush/sorting/src"/>
+	<classpathentry kind="src" path="kunal_kush/src"/>
+	<classpathentry kind="src" path="kunal_kush/String/src"/>
+	<classpathentry kind="src" path="kunal_kush/switch_case/src"/>
+	<classpathentry kind="src" path="ServletAndJsp/FourthServletApp/src/main/java"/>
+	<classpathentry kind="src" path="ServletAndJsp/RegisterApp/src/main/java"/>
+	<classpathentry kind="src" path="ServletAndJsp/RegistrationApplication/src/main/java"/>
+	<classpathentry kind="src" path="ServletAndJsp/RequestDispatchApp/src/main/java"/>
+	<classpathentry kind="src" path="ServletAndJsp/SecondWebApplication/src/main/java"/>
+	<classpathentry kind="src" path="ServletAndJsp/ServletFourthApp/src/main/java"/>
+	<classpathentry kind="src" path="ServletAndJsp/SevletLife/src/main/java"/>
+	<classpathentry kind="lib" path="Hello/telusko/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar"/>
+	<classpathentry kind="output" path="Hello/leetcode/out/production/leetcode"/>
+</classpath>
