@@ -1,0 +1,3 @@
+Strings 
+Strings are immutable that means if we declare any string we cannot modify them we can reassign them previous will get collected by garbage collection
+String are saved in heap memory string pool 

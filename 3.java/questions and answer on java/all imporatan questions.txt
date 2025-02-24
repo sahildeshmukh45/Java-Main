@@ -1,0 +1,6 @@
+Armstrong no
+patterns
+palindrome 
+anagram
+leap year
+reverse no

@@ -1,0 +1,39 @@
+ 	###########ArrayList###########
+######syntax to write arraylist
+ArrayList<Integer> numbers=new ArrayList<Integer>();
+numbers.add(1);
+numbers.add(2);
+numbers.add(3);
+numbers.add(4);
+numbers.add(5);
+System.out.println(numbers.toString());
+#########to access any particular element by index we can use	 get method 
+System.out.println(numbers.get(1));
+#######3it will print element which is on 1st index
+#######to remove any particlar element from the specific index
+System.out.println(numbers.remove(1));
+#######it will remove element which is on 1st index
+########but if you wan to remove any thing by value then
+numbers.remove(Integer.valueOf(4));
+System.out.println(numbers.toString());
+######to clear all the arraylist
+numbers.clear();	
+#######if we want to update arraylist	
+numbers.set(2,Integer.valueOf(30)); 	
+#######to sort the arraylist
+numbers.sort(Comprator.naturalOrder());
+#######for sorting in reverse order
+numbers.sort(Comparator.reverseOrder());
+#######for checking the size we can use
+System.out.println(numbers.size()); 
+#######to check any value belongs to array or not
+System.out.println(numbers.contains(Integer.valueOf(4)); 
+#######for check arraylist is empty or not 
+System.out.println(numbers.isEmpty()); 
+##### just like mapping or lambda function in python in java there is foreach function
+ArrayList<Integer>numbers=new ArrayList<Integer>();
+numbers.add(1);
+numbers.add(2);
+numbers.add(3);
+numbers.add(4);
+numbers.forEach(x->{numbers.set(numbers.indexOf(x),x*2);});

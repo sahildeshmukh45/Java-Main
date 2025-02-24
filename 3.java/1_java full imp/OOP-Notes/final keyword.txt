@@ -1,0 +1,6 @@
+final keyword 
+final is use in to stop override method if we declare a method as final then we cannot make 
+function with same name 
+if we declare class as final then we cannot extends that class that means it will prevent inheritance
+also 
+if we declare class as final then it will declare methods  of that class as final

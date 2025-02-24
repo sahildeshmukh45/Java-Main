@@ -1,0 +1,16 @@
+ENCAPSULATION
+encapsulation and abstraction focuses on security
+inheritance and polymorphism focuses on code reusability
+
+Encapsulation means wrapping up the implementation  of data members and methods in class 
+Encapsulation means hiding data using public, private, protected keywords
+you can hide data using getter and setter that is meant by encapsulation 
+Encapsulation means internal working and abstraction means external showing and gaining information
+Data hiding is achieved by encapsulation
+
+ 1> if we declare variable or method as private then we can only call that in that class but by creating getter and setter
+ 2> method we can access and modify it anywhere if we declare variable or method as protected then we can only access in subclass which are extended from that class
+ 3> we can also access in another package but in only subclass that are extended from the that parent class in which the protected is declare
+ 4> public means we can access it anywhere
+ 5> no modifier can only access in the same package
+6> getClass() is use for acess all the feature of that class and also to get the name of class 

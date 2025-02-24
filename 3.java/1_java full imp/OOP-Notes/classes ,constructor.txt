@@ -1,0 +1,24 @@
+OOP notes: On classes Objects and Constructor
+Class is templates of object
+Object is instance of class
+variable inside the object known as instance variable
+object are store in heap memory
+refernce variable are store in stack memory
+constructor doest have return type because the type of class is return type
+constructor or function overloading can avoid by changing no of arguments or changing datatype
+this keyword is used to refer to current object
+if we call final for primitive we cant reassign values but for methods(Non primitive) we can reassign values but cant redecleared the function
+constructor should have same name to the class
+one class can have many constructor but parameter should have different
+same goes for methods one class can have many methods but parameter should be different
+
+final keyword is use to prevent your content to be modified if we decleared (finale int num=5;)
+then num cannot be modified and always initialised while declared finale you cannot declared first
+and then initialised that will give error
+
+if non primitve is final then it cannot be reassign like 
+finale Student user=new Student("sahil");
+user.name="saurabh";
+but you can't reassign like 
+user=new Student("op1"); it will give error because you declared user as finale 
+

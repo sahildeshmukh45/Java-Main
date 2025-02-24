@@ -1,0 +1,42 @@
+SQL 
+
+Primary key -> primary key is unique constraint it contains unique value as well It cannot be null one table can only contain one primary key
+
+constraints 
+1> NOT NULL value should there . should be doesn't null
+2> UNIQUE is same like primary key but in a table there is only one primary key but UNIQUE can be use for many 
+column in one table
+3> CHECK for statisfying conditions 
+4> DEFAULT default is use for default value 
+5> SELECT is for selecting column and displaying the information
+6> SELECT * FROM TABLE_NAME WHERE CONDITION it is syntax for where clause 
+7> AND,OR and NOT we know how to use 
+8> IN operator is like or operator
+9> NOT IN opposite of IN 
+10> BETWEEN is use for BETWEEN RANGE EX:SELECT8FROM STUDENT_INFO WHERE AGE BTWEEN 18 AND 20
+11> NOT BETWEEN opposite of between EX:SELECT8FROM STUDENT_INFO WHERE AGE NOT BTWEEN 18 AND 20
+12> ORDER BY EX:-SELECT * FROM STUDENT ORDER BY AGE ASC/DESC;
+13> DISTINCT EX:-SELECT DISTINCT CITY FROM STUDENTINFO;  it will all the unique city name from column
+14> UPDATE EX:- please see update file in same folder 
+15> DELETE FROM TABLE_NAME  WHERE COLUMN_NAME/CONDITION
+16> ROLLBACK; for the undo it will work only for 3 command insert, update and delete
+17> if you commit data it will not roll back or it will final wherever you write commit the above data will not rollback
+18>Left join , right join , inner join , cross join
+   inner join=both the common data of table,
+   left join =whole left table and primary key of right
+    right join=whole right table and primary key of left join
+19> ALTER TABLE TABLE_NAME ADD COULMUN_NAME DATATYPE; // ADD COULMN
+20> ALTER TABLE TABLE_NAME MODIFY COLUMN_NAME DATATYPE; // MODIFY COLUMN
+21> ALTER TABLE TABLE_NAME DROP COLUMN COLUMN_NAME DATATYPE; //DELETE COLUMN
+22> ALTER TABLE TABLE_NAME RENAME COLUMN_NAME NEW_NAME DATATYPE; //RENAME COLUMN
+23> ALTER TABLE TABLE_NAME RENAME NEW TABLE NAME; //RENAME TABLE
+24> DROP IS USE FOR DELETE ALL THE DATA AND TABLE DROP TABLE TABLE_NAME;
+25> TRUNCATE IS USE FOR DELETE DATA NOT TABLE TRUNCATE TABLE TABLE_NAME;
+
+
+
+
+
+
+
+

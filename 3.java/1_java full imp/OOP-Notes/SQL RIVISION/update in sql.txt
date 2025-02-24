@@ -1,0 +1,47 @@
+create table medicine_info(product varchar(20), m_date date,E_date date,company varchar(20),price int)
+INSERT INTO medicine_info() values("dolo",'2023-01-01','2026-01-01',"poonawala",30);
+INSERT INTO medicine_info(product,M_date,E_date,price) values("Avil",'2020-03-03','2025-01-01',40) ,("crocine",'2021-04-01','2023-01-01',50);
+INSERT INTO medicine_info(product,E_date,price) values("gelucile",'2022-03-01',60);
+INSERT INTO medicine_info(product,M_date,company) valus("vitamin-e",'2023-04-03'"xyz");
+
+Update medicine_info set company="abc" WHERE product="Avil";
+
+Update medicine_info set company="mno" WHERE price>40;
+
+Update medicine_info set m-date='2024-03-03' WHERE m-date is null;
+
+Update medicine_info set company="it vedant",m-date='2023-01-01',e_date='2026-03-01' WHERE price>40 and price<=60;
+
+Update medicine_info set e_date='2025-03-03' WHERE product="Vitamin-E";
+Update medicine_info set price=70 WHERE product="Vitamin-E";
+
+for creating copy
+create table t1 select * from medicine info;
+//*in which t1 is new table name and medicine info is old table name*//
+
+create table t2(id int,name1 varchar(20),adress varchar(20),age int,salary int);
+INSERT INTO t2() values(101,"raam","pune",20,20000),(102,"ramesh","pune",30,30000);
+INSERT INTO t2(adress,salary) values("mumbai",50000);
+INSERT INTO t2(id,adress,age) values(104,"mumbai",23);
+INSERT INTO t2(id,name,adress) values(105,"divya","nashik");
+INSERT INTO t2(adress,age) values("solapur",24);
+
+UPDATE t2 set id=103,name 1="ankita",age=45 WHERE salary=50000;
+UPDATE t2 set  name1="vinod",salary=70000 WHERE id=104;
+UPDATE t2 set age = 30,salary=70000 WHERE id=105;
+UPDATE t2 set id = 200,salary=45000 WHERE adress = "solapur";
+UPDATE t2 set name1="vinod" WHERE adress ="solapur";
+UPDATE t2 set adress ="chandrapur" WHERE age>34 & salary>30000 &id>103;
+UPDATE t2 set set age=45 &adress "osmanabad" WHERE age>30 OR name1="raam";
+UPDATE t2 set age =50;
+
+***TO CHECK ONLY AGE***
+SELECT (age) FROM t2;
+***TO CHECK ALL TABLE ***
+SELECT * FROM t2;
+
+For deleting row
+DELETE from t2 WHERE AGE=20;
+
+
+

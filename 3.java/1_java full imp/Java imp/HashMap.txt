@@ -1,0 +1,32 @@
+xHashMap<String,Integer>examScores=new HashMap<String,Integer>();
+examScores.put("Math",99);
+examScores.put("English",85);
+examScores.put("Hindi",77);
+examScores.put("Marathi",75);
+examScores.put("computerprogramming",89);
+System.out.println(examScores.toString());
+there is another method in HashMap in which you can add key and value if they are absent
+examScores.putIfAbsent("Math",77); 
+it will only add the key value if it doesn't have maths value or maths string otherwise it doesn't overwrite 
+for rplacing the value we can write
+examScores.replace("Math",88);  it will replace maths value
+to access maths value we can accessby get method
+examScores.get("Maths");
+there is also another method is present to get default value if key is not present in the HashMap
+examScores.getORDefault("Math",88);
+to clear all the key and values 
+examScores.clear()
+to check the size 
+System.out.println(examScores.size());
+to remove elements from hashmap you can 
+examScores.remove("Maths"); 
+it will remove maths and also there value
+to check any key contains to hashmap we have to write
+System.out.println(examScores.containsKey("Maths"));
+it will check weather hashmap contains this key or not
+similarly to check the value we can write
+System.out.println(examScores.containsValue(100));
+lambda function in hashmap
+examScores.forEach(x,y)->{
+examScores.replace(x, y-10);
+};

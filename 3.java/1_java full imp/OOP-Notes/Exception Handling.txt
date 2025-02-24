@@ -1,0 +1,10 @@
+Exception Handling
+exception handling has two types check and unchecked 
+check exception is while code is compiling 
+unchecked exception cannot be detect but can you detect while programme is running
+1> for arithmetic means numerical or addition subtraction  exception we have to call Arithmetic Exception
+2> or any type of exception we can call normal exception
+3> always remember if you want to call normal exception then call it lastly because if is for any type
+4> weather it is arithmetic or not so if we call it first it will never reach to next statements 
+5>we can create our own exception by extending exception class
+6>we cannot create more than one finally blocks

@@ -1,0 +1,18 @@
+OOP Notes:-Packages ,Static ,singleton class , in built method
+we can create different different package for create same class name
+also static means which is common to all the objects present in that class 
+for example if we create human class then age  salary name would be different for the different different object but 
+population will be the same so we decleared population as static
+also we should write classname insted of object name or this because its common for all the class 
+we can also give object name or this but its not recommended	
+check in the static example in kunal Kushwaha oop concepts
+we can call static method without callin object because it does not depend upon any object	
+
+
+Main method is static because the veryfirst thing which is going to run in the code is main
+and we know every class have to make an object then how it is possible to run code without making an object of that
+class therefor the main method is static where we dont need to make an object for that  
+you should be run main function without create obect for class main that is why main is static 
+
+
+also the this keyword is not use in static because it is refer to an object and we know static run without object

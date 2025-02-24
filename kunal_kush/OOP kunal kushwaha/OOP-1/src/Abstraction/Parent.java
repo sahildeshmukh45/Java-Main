@@ -18,8 +18,8 @@ abstract public class Parent {
     void normal(){
         System.out.println("This is normal methods");
     }
-    //also we cannot use final class in abstract class we know we cannot reassign value of final variable and can access only in that class
+    //also we cannot use final variable in abstract class we know we cannot reassign value of final variable and can access only in that class
     //in which final variable is declared
-    final int num=45;
+     final int num=45;
 
 }

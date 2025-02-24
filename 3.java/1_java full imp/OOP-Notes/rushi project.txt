@@ -1,0 +1,1 @@
+flask kivi deepface cv2 uses  harcascade is connected to detect 

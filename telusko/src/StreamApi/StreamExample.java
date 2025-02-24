@@ -21,14 +21,16 @@ public class StreamExample {
 //        int result=s3.reduce(0,(a,b)->a+b);
 //        System.out.println(result);
 //        in simple term we can write like as given below
-        int result =list.stream()
-                .map(n-> n*2)
-                .filter(n->n%2==0)
-                .reduce (0,(a,b)->a+b);
-        System.out.println(result);
-        Stream<Integer>sortedValues =list.stream()
-                .map(n-> n*2)
-                .sorted();
-        sortedValues.forEach(n-> System.out.println(n));
+//        int result =list.stream()
+//                .map(n-> n*2)
+//                .filter(n->n%2==0)
+//                .reduce (0,(a,b)->a+b);
+//        System.out.println(result);
+//        Stream<Integer>sortedValues =list.stream()
+//                .map(n-> n*2)
+//                .sorted();
+//        sortedValues.forEach(n-> System.out.println(n));
+
+
     }
 }

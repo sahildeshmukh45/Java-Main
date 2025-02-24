@@ -1,0 +1,60 @@
+String name=new String()
+String.format()
+%d=integer 
+%s=string
+%f=float
+%b=Boolean
+%c=char
+string name="sahil"
+to check the length=name.length()
+to chreck the empty=name.Empty()	
+to convert uppercase=toUpperCase()
+to convert lowercase=toLowerCase()
+if we have two string
+String name1=new.String("abc")
+String name2=new.String("abc")
+if we check this two strings are equal like String1==string2
+we get output as false That's why for compare the strings
+we can use(String1.equals(String2))
+for ignoring the uppercase and lowercase between two strings we can use (String1.equalsIgnoreCase(String2))
+for the replace
+name.replace("sahil","saurabh")
+to check the string contains the particular word
+name.contains("sahil")	
+******Arrays******
+char vowel[]={'a','e','i','o','u'};
+to check the length of array
+System.out.println("length.vowels");
+to sort the array
+Arrays.sort(vowels);
+to sort the array from specific element
+int startingindex=1;
+int endingindex=4;
+Arrays.sort(vowels,startingindex,endingindex);
+System.out.println(Arrays.toString(vowels);
+#####binarySearch######
+for the binary search we have to first sort the array
+char vowel[]={'e','a','o','u','i'};
+Arrays.sort(vowels);
+char key='i';
+int arrayIndex=(Arrays.binarySearch(vowels,key))
+System.out.println(arrayIndex);
+we can also take starting index and ending index just like we take in sorting method
+Arrays.fill(vowels,'x');
+it will fill all the array to 'x';
+to fill any elment in specific index 
+int startingIndex=1;
+int endixIndex=4;
+Arrays.fill(vowels,startingIndex,endingIndex,'x');
+System.out.println(Arrays.toString(vowels));
+if we have to make copy of array 
+int numbers[]={1,2,3,4,5,6,7,8,9}
+int copyNumbers[]=Arrays.copyOf(numbers,numbers.length)
+we can also increase the length by adding length
+int copyNumbers[]=Arrays.copyOf(numbers,10)
+if we want to copy from particular index then
+int startingIndex=1
+int endingIndex=4
+int copyNumbers[]=Arrays.copyOfRange(numbers,startingIndex,endingIndex)
+for checking both arrays are equal or not 
+Arrays.equal(numbers,copyNumbers);

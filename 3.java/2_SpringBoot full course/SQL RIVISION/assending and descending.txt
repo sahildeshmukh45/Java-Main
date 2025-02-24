@@ -1,0 +1,112 @@
+select*from employees
+ORDER BY department ,age;
+
+
+select*from employees
+ORDER BY country DESC;
+
+select*from employees
+ORDER BY duration;
+
+//AGE >40 in descending
+
+SELECT * FROM employees
+WHERE age>40 ORDER BY age DESC;
+
+select*from employees
+WHERE country ="usa" OR "RUSSIA" OR "CANDA" AND DURATION >4 AND AGE>30
+ORDER BY country ,age DESC,duration;
+
+
+//unique table showing//
+
+SELECT DISTINCT (age) FROM employees;
+
+
+SELECT DISTINCT (state) employees
+ORDER BY state DESC;
+
+for limit 
+
+SELECT DISTINCT (age) FROM employees
+LIMIT 3;
+
+SELECT DISTINCT (rating) from employees
+ORDER BY rating  desc limit 5;
+
+
+SELECT DISTINCT (total_pay_benifits)FROM EMPLOYEES
+ORDER BY total_pay_benifits  desc limit 3;
+
+//FINDONG benifits OF 4 highest 
+SELECT DISTINCT (benifits) FROM EMPLOYEES
+ORDER BY benifits DESC
+LIMIT 3,1;
+
+//FINDONG RATING OF 3 LOWEST 
+SELECT DISTINCT (rating) FROM EMPLOYEES
+ORDER BY rating 
+LIMIT 2,1;
+
+// for finding age between 30 and 35
+// when we use between we can only use for numbers 
+// between is range operator
+SELECT * FROM employees
+WHERE age BETWEEN 30 AND 35;
+
+SELECT * FROM employees
+WHERE age>30 AND age<35;
+
+SELECT * FROM employees
+WHERE department="SDE" OR department="HR" OR department="ACCOUNTS" OR department="LOGISTICS";
+
+//IN OPERATOR ONLY FOR OR CONDITION
+SELECT * FROM employees
+WHERE department IN( "sde","hr","accounts","logistics")
+
+SELECT * FROM employees
+WHERE age IN(22,30,55);
+
+//LOAN IS YES
+//id between 200 to 300
+//country is either usa ,Russia, canda
+//duration either 4,7,9
+//age between 22 to 40.
+
+SELECT * FROM employees
+WHERE lona in(yes) AND
+ID BETWEEN 200 AND 300 AND 
+COUNTRY IN ("usa","russia","canda" )AND 
+DURATION=4 or DURATION =7 or DURATION =9
+AND AGE BETWEEN 22 AND 40;
+
+SELECT * FROM employees WHERE 
+NOT country IN ('usa', 'russia') AND
+ NOT age BETWEEN 30 AND 40 AND 
+NOT id BETWEEN 100 AND 200 AND 
+rating IN (9.3,8.0,8.9) AND 
+NOT loan="yes" AND 
+NOT department IN ('sde','sde-t') 
+ORDER BY age DESC LIMIT 10;
+
+
+
+// like operator is wildcard operator 
+// % is use for start with and end with
+
+//department start with s
+SELECT * FROM employees
+WHERE department LIKE 's%';
+
+// 
+SELECT * FROM employees 
+WHERE name1 LIKE '_d%n' AND
+department like 's%t' and state like '_____';
+
+
+//AS is for Alaising perpose
+
+SELECT COUNT (DISTINCT (state)) As unique state FROM employees;
+
+
+

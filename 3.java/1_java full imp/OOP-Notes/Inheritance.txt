@@ -1,0 +1,24 @@
+Inheritance is like parent and child child class have properties from parent class
+child class means it has properties of parents class plus it has some properties of its own
+the syntax is public class childclass-name extends parentclass-name{}
+
+1> Single inheritance
+in single inheritance one class extends another class 
+
+2> multilevel inheritance
+super keyword call there upper class for example if we have 3 class a b and c
+b is parent of c and a is parent of b then c will call b and b will call a
+
+
+3> Multiple Inheritance
+in multiple inheritance one class extends more than one class 
+here one child can have more than one parentclass if parentclass have same variable name and different values then which one to access thats why java doesn't support multiple inheritance
+
+4>Hierarchical one parent can have multiple child like from a b and c 
+we can extend b and c from a 
+
+5> Hybrid inheritance it is combination of single and multiple inheritance
+but in java there is no multiple inheritance so there is no hybrid inheritance either
+
+if we didn't write super keyword it will automatically going to called super keyword of constructor which doesn't contain any parameter
+like constructor with empty parameter like super(); and if parent class doesn't have constructor with no argument it will give compile time error.

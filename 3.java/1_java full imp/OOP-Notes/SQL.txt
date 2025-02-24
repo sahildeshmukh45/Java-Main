@@ -1,0 +1,20 @@
+SQL 
+
+Primary key -> primary key is unique constraint it contains unique value as well It cannot be null one table can only contain one primary key
+
+constraints 
+1> NOT NULL value should there . should be doesn't null
+2> UNIQUE is same like primary key but in a table there is only one primary key but UNIQUE can be use for many 
+column in one table
+3> CHECK for statisfying conditions 
+4> DEFAULT default is use for default value 
+5> SELECT is for selecting column and displaying the information
+6> SELECT * FROM TABLE_NAME WHERE CONDITION it is syntax for where clause 
+7> AND,OR and NOT we know how to use 
+8> IN operator is like or operator
+9> NOT IN opposite of IN 
+10> BETWEEN is use for BETWEEN RANGE EX:SELECT8FROM STUDENT_INFO WHERE AGE BTWEEN 18 AND 20
+11> NOT BETWEEN opposite of between EX:SELECT8FROM STUDENT_INFO WHERE AGE NOT BTWEEN 18 AND 20
+12> ORDER BY EX:-SELECT * FROM STUDENT ORDER BY AGE ASC/DESC;
+13> DISTINCT EX:-SELECT DISTINCT CITY FROM STUDENTINFO;  it will all the unique city name from column
+14> UPDATE CHECK UPDATE  FOLDER s

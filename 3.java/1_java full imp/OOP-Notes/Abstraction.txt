@@ -1,0 +1,16 @@
+Abstraction & interfaces
+abstraction can be achieved by abstract classes and interfaces
+
+1>A method without body is known as abstract method 
+2>A method must always be declared in abstract class or we can say that if a class has an 
+abstract method then that class should be declared as abstract as well but is it is not necessary that
+abstract class should only contain abstract methods 
+3>if any class inherit the abstract class then it is compulsory to make body of abstract method to that class if we don't make body then it will give error 
+4>we cannot  create object of abstract class because there is no body in abstract class but can create 
+reference type same like inheritance
+
+interface is used to achieved abstraction
+it support multiple interface as we know java doesn't support 
+we implements multiple interfaces to multiple inheritance in inheritance, we cannot inherit more than one class so multiple inheritance is not allowed ,but we can implement more than one
+interfaces it is act like multiple inheritance, interfaces is similar to abstraction like interfaces does not contain body
+we have to declare all the method and function where we implement the interfaces 

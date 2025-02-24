@@ -1,0 +1,2 @@
+/resume skills
+maven , gradel ,docker ,microservices , servlet and jsp ,hibernet,git 

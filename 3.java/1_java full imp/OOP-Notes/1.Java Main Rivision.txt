@@ -1,0 +1,45 @@
+OOP RIVISION REFER TO NOTES OF NOTEBOOK AND INTLLIJ PACKAGES OF THAT TOPIC(CODES)
+classes
+object 
+constructor or methods
+final keyword 
+garbage collection
+
+packages
+import
+static 
+this keyword
+inner class 
+singleton class 
+
+principles of oops
+inheritance and types of inheritance
+private keyword
+super keyword
+polymorphism and types of polymorphism
+overloading and overriding 
+final keyword
+encapsulation
+abstraction
+interfaces 
+exception handling
+generics 
+comparable
+lambda
+object clone(deep copy & shallow copy)
+enums
+
+
+After these revise telusko's
+Threading
+Anonomyous Class
+Stream
+Exception Handling
+FileHandling
+Gnrics
+Date and time
+Lambda Expressiond
+
+
+
+

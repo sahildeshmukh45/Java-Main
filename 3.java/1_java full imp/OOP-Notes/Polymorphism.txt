@@ -1,0 +1,26 @@
+Polymorphism
+poly means many and morphism means way to represent  
+types of polymorphism 
+1>compile time polymorphism or static polymorphism this is achieved by method overloading
+method overloading means when a class has multiple method or functions whith same name but the
+ types, no of argument,return types ,ordering ,should be different 
+for example;
+A a=new A();
+A a2=new A(1,2,3);
+this is compile time polymorphism or static polymorphism or method overloading
+compile time means it will determine at the compile time which method we should call and 
+memory allocation will happen at runtime
+
+2>runtime or dynamic time polymorphism achieved by overriding
+child class has method name same as the parent class or super class
+ parameter ,return type is same but the body is different it is called override
+previously we know that we can access the element which is present in the reference type(parent class) and cannot access the element of object type here  is also same we can only access element which is present in parent class but,if we made an object of child class and parent class also have same name method or function or constructor then it will called child
+class method in simple term it will override the parent class override means
+child class has method name same as the parent class(super class) parameter ,return type is same but
+the body is different it is called override
+remember it only override when the parent class and child class has same name function and parameter otherwise we can only access variable function which is in reference class
+early binding:- if we declare method as final we can prevent override 
+
+also we cannot override static method. if we create to static method with same name it will 
+call which is present in parent class i mean which is resent in the reference type.
+

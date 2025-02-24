@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        String str = "hellohihellohihihellohihello";
+        String subStr = "hello";
+        int originalLength = str.length();
+        int newLength = str.replace(subStr, "").length();
+        int count = (originalLength - newLength) / subStr.length();
+        System.out.println("The substring 'hello' occurs " + count + " times.");
+    }
+}

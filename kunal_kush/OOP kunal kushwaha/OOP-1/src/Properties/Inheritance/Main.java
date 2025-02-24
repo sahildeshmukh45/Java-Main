@@ -1,6 +1,7 @@
 package Properties.Inheritance;
 
-public class Main {
+public class
+Main {
     public static void main(String [] args){
 //        Box op=new Box();
 //        //System.out.println(op.l + " " + op.b + " "+op.h);
@@ -8,7 +9,7 @@ public class Main {
 //        System.out.println(op1.weight);
 //        op1.information();
 //        Box ooop=new BoxWeight(2,3,52,23);
-//        // if we made parents class as reference class and child class use as to create an object
+//        // if we made parents class as reference class and child class use as to create an object 
 //        // then you can only acces the variables or methods which are present in the parent class
 //        //like below also if we decleare any variable as private we cannot acces in the class
         //here  i have declerared l as private so i cannot aaccess here
@@ -26,15 +27,17 @@ public class Main {
 //        BoxPrice aa=new BoxPrice(4,45,299);
 //        System.out.println(aa.weight);
 //        BoxPrice aaa=new BoxPrice(aa);
-        BoxPrice aba=new BoxPrice(45,33,56);
-        System.out.println(aba.weight);
-        BoxPrice a=new BoxPrice(aba);
-        System.out.println(a.weight);
+//        BoxPrice aba=new BoxPrice(45,33,56);
+//        System.out.println(aba.weight);
+//        BoxPrice a=new BoxPrice(aba);
+//        System.out.println(a.weight);
         //inheritance can be prevented by declaring parent class as final it will also make
         //all the methods of that class as final
-//        if we didn't write super keyword it will automatically go to call super keyword of constructor which doesn't contain any parameter
+//        if we didn't write super keyword it will automatically go to call super keyword
+//        of constructor which doesn't contain any parameter
 //        like constructor with empty parameter like super();
 //        and if parent class doesn't have constructor with no argument it will give compile time error
+
     }
 }
 

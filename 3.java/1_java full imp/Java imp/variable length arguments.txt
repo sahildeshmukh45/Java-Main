@@ -1,0 +1,11 @@
+variable length arguments
+if we don't know how many variables we have to take we can simpily 
+static void fun(int ...v){
+System.out.println(Arrays.toString(v));
+}
+it will store in array
+we can also do like 
+static void fun(int a, int b, String ...v){
+
+}
+variable length argument should be at last

@@ -1,0 +1,6 @@
+->There is a single interview (TR+HR).
+->First they take your introduction.
+->They asked questions related to your projects.
+->Basically, what was your role in the projects.
+->What are you learning now a days.
+->Questions related to team works etc.
